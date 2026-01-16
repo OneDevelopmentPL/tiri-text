@@ -1,6 +1,9 @@
 # Tiri Text
 Tiri is a Mac-like Voice Assistant that supports basic Q&amp;A System. This is a text version of Tiri.
 
+# Logo
+Sorry, but due to copyrigt issues i can't put a real 5iri Logo
+
 # Requirements
 ```PyQt6```, ```PyQt6-WebEngine```
 
