@@ -6,6 +6,7 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import Qt
+from pathlib import Path
 
 # Pytania
 QA_KEYWORDS = {
@@ -95,7 +96,12 @@ class NeonSiri(QWidget):
 
         # Ikona
         self.icon_label = QLabel()
-        pix = QPixmap("/home/iwo/Pobrane/obraz-removebg-preview.png")
+        BASE_DIR = Path(__file__).resolve().parent
+
+        ICON_PATH = BASE_DIR / "logo.png"
+
+        pix = QPixmap(str(ICON_PATH))
+
         pix = pix.scaled(64, 64, Qt.AspectRatioMode.KeepAspectRatio,
                          Qt.TransformationMode.SmoothTransformation)
         self.icon_label.setPixmap(pix)
