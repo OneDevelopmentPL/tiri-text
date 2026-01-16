@@ -5,8 +5,18 @@ Tiri is a Mac-like Voice Assistant that supports basic Q&amp;A System. This is a
 ```PyQt6```, ```PyQt6-WebEngine```
 
 # How to install
-1. Clone this repo:
+## DON'T Clone this repo. Instead of this, download a installer file for any Linux distro from releases tab.
+1. Go to Releases.
+2. From Releases download ```install.sh``` file.
+3. Open a black hole called A TERMINAl.
+4. Cd to download folder.
+5. Give permission to run:
 ```bash
-git clone https://github.com/OneDevelopmentPL/tiri-text.git
+chmod +x install.sh
 ```
-2. 
+6. Run the installer
+```bash
+./install.sh
+```
+7. After installation you are good to go!
+
